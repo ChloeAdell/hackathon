@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Name Goes Here</title>
+        <link rel="icon" type="image/x-icon" href="./Assets/Viccisitude.ico">
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lunasima&display=swap');
+        body {
+            color:rgb(255, 255, 255);
+            font-size: 16px;
+            background-image: url("Assets/Background.jpg");
+            background-attachment:fixed;
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size:cover;
+            font-family: 'Lunasima', sans-serif;
+        }
+
+        a:link, a:visited, a:hover, a:active {
+            color: white;
+            text-decoration: none;
+        }
+
+        .LinkButton {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width:18em;
+            height:3.5em;
+            padding:3px 15px;
+            text-align:center;
+            background-color:rgb(105, 131, 187);
+            border:2px solid rgb(192, 187, 214);
+            border-radius:15px;
+            transition: 0.5s
+        }
+
+        .LinkButton:hover {
+            background-color: rgb(129, 167, 250);
+        }
+        
+        .ContentContainer {
+            display:flex; 
+            justify-content:center; 
+            gap:1em; 
+            align-items:center; 
+            flex-direction:column;
+            margin-top: 2em;
+        }
+    </style>
+
+    <body>
+        <div class="ContentContainer">
+            <img src="Assets/faceholdingbacktears.png">
+            Sample Text
+            <a href="https://firstgen.naspa.org/why-first-gen/why-first-gen">
+                <div class="LinkButton">
+                    Why First Generation?
+                </div>
+            </a>
+
+            <a href="https://www.collectivesuccess.org/resources">
+            <div class="LinkButton">
+                Resources for Success for 1st Gen / Low Income
+            </div>
+            </a>
+
+            <a href="https://www.forbes.com/advisor/education/online-resources-for-first-generation-college-students/">
+            <div class="LinkButton">
+                Tips and Resources
+            </div>
+            </a>
+        </div>
+    </body>
+</html>
